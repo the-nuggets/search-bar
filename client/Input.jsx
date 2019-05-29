@@ -18,6 +18,7 @@ const InputContainer = styled.div`
     font: 17px/20px 'Calibre-Regular', sans-serif;
     background-color: transparent;
     border: none;
+    color: #656666;
   }
 
 `;
