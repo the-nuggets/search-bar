@@ -8,8 +8,12 @@ import styled from 'styled-components';
 const Header = styled.div`
   display: flex;
   flex-wrap: wrap;
+  position: fixed;
   width: 100%;
   height: 80px;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
   background-color: white;
 
   @font-face {
