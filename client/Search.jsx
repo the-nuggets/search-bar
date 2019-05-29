@@ -14,12 +14,12 @@ const Header = styled.div`
 
   @font-face {
     font-family: 'Calibre-Medium';
-    src: url("http://localhost:2999//fonts/CalibreWeb-Medium.woff2") format('woff2');
+    src: url("http://localhost:3004//fonts/CalibreWeb-Medium.woff2") format('woff2');
   }
 
   @font-face {
     font-family: 'Calibre-Regular';
-    src: url("http://localhost:2999//fonts/CalibreWeb-Regular.woff2") format('woff2');
+    src: url("http://localhost:3004//fonts/CalibreWeb-Regular.woff2") format('woff2');
   }
 `;
 
