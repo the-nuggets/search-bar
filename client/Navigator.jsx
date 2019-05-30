@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 const NavContainer = styled.div`
   flex: 1 1 50%;
@@ -25,13 +25,13 @@ export default function Navigator() {
   return (
     <NavContainer>
       <div>
-        the latest
+        san francisco
       </div>
       <div>
         city's best
       </div>
       <div>
-        san francisco
+        the latest
       </div>
     </NavContainer>
   );

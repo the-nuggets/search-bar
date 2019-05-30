@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Logo from './Logo';
 import Input from './Input';
 import Navigator from './Navigator';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 const Header = styled.div`
   display: flex;
@@ -83,5 +83,7 @@ class Search extends React.Component {
     );
   }
 };
+
+export default Search;
 
 ReactDOM.render(<Search />, document.getElementById('search'));
