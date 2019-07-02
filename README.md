@@ -1,29 +1,38 @@
-# Project Name
+# Search Module
 
-> Simple Search module for Zagat.com
-
-## Related Projects
-
-  - https://github.com/the-notorious-f-e-c/zagat-reviews
-  - https://github.com/the-notorious-f-e-c/zagat-restaurant-info
-  - https://github.com/the-notorious-f-e-c/zagat-google-reviews
-  - https://github.com/the-notorious-f-e-c/zagat-photos-service
+> Search Bar
 
 ## Table of Contents
 
-1. [Usage](#Usage)
-1. [Dependencies](#dependencies)
+1. [How To Use](#how-to-use)
+2. [Requirements](#requirements)
+3. [Related Projects](#related-projects)
 
-## Usage
+## How To Use
 
-> npm run build to compile jsx files to one bundle
-> npm run server 
+```bash
+# clone this repository
+$ git clone https://github.com/the-nuggets/search-bar.git
 
+# install dependencies
+$ npm install
 
-### Installing Dependencies
+# compile/transpile files with webpack
+$ npm run build
 
-From within the root directory:
-
-```sh
-npm install
+# run the app!
+$ npm run start
 ```
+
+## Requirements
+
+- [npm](http://npmjs.com)
+- [Node.js](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com)
+
+## Related Projects
+
+  - https://github.com/the-nuggets/photos-and-modal
+  - https://github.com/the-nuggets/restaurant-reviews
+  - https://github.com/the-nuggets/restaurant-info
+  - https://github.com/the-nuggets/google-reviews
